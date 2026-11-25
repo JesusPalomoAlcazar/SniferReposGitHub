@@ -2,7 +2,7 @@ name: Monitor de descargas
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # cada 5 minutos (lo mínimo que permite GitHub; puede retrasarse)
+    - cron: "4-59/5 * * * *"   # cada 5 min en :04, :09, :14… (evita los minutos redondos, que GitHub suele saltarse)
   workflow_dispatch:         # botón "Run workflow" para lanzarlo a mano
 
 permissions:

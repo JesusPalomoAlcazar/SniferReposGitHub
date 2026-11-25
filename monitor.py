@@ -87,7 +87,8 @@ def main():
         for asset, total in actual.items():
             delta = total - anterior[repo].get(asset, 0)
             if delta > 0:
-                avisos.append(f"{repo.split('/')[-1]} {asset}: +{delta} (total {total})")
+                nombre = repo.split("/")[-1].removesuffix("-releases")
+                avisos.append(f"{nombre} {asset}: +{delta} (total {total})")
 
     for linea in avisos:
         print(f"[DESCARGA] {linea}")

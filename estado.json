@@ -1,0 +1,15 @@
+{
+  "keepalive": "2026-11-25T10:44:32+00:00",
+  "repos": {
+    "JesusPalomoAlcazar/CleanGuard-releases": {
+      "v1.1.0/CleanGuard.exe": 3,
+      "v1.0.2/CleanGuard.exe": 2,
+      "v1.0.1/CleanGuard.exe": 2,
+      "v1.0.0/CleanGuard.exe": 1
+    },
+    "JesusPalomoAlcazar/SpaceCalculator-releases": {
+      "v1.0.1/SpaceCalculator.exe": 2,
+      "v1.0.0/SpaceCalculator.exe": 2
+    }
+  }
+}
